@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExamBooks</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CDN -->
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css" rel="stylesheet" />
+    <!-- Main Css -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header class="container">
+        <nav class="navbar navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand d-block logo"><img src="./images/logo.svg" alt="logo" class="logoIMg"></a>
+                <form class="d-flex  w-75  justify-content-between px-2">
+                    <input class="form-control me-2 px-4 p-1 rounded-pill mainSearch" type="search" placeholder="Search books" aria-label="Search">
+                    <button class="nightSun border-0"><img src="./images/sun.svg" alt=" sun"></button>
+                    <button class="btn bg-primary  text-white fs-6 logout" type="submit">Logout</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+    <main class="container ">
+        <section class="hero w-100">
+            <div class="hero__wrapper d-flex justify-content-between px-2 ">
+                <h4 class="hero_result">Showing Result(s)</h4>
+                <select name="sort" id="sort" class="mb-2">
+                    <option value="all">Order by newest</option>
+                </select>
+            </div>
+        </section>
+        <section class="main">
+            <div class="maianWrapper d-flex justify-content-between">
+                <div class="bookmark">
+                    <h3 class="title">Bookmarks</h3>
+                    <p class="text">If you don’t like to read, you haven’t found the right book</p>
+                    <div class="box ">
+                        <div class="info">
+                            <h4>Python</h4>
+                            <p>David M. Beazley</p>
+                        </div>
+                        <div class="links">
+                            <a href="#" class="books d-block mt-1 px-1"><img src="./images/biik.svg" alt="book"></a>
+                            <button class="btn deliet mt-2" id="python"><img src="./images/delete 1.svg" alt="deliet"></button>
+                        </div>
+                    </div>
+                    <div class="box mt-3 ">
+                        <div class="info">
+                            <h4>Java</h4>
+                            <p>David M. Beazley</p>
+                        </div>
+                        <div class="links">
+                            <a href="#" class="books d-block mt-1 px-1"><img src="./images/biik.svg" alt="book"></a>
+                            <button class="btn deliet mt-2" id="java"><img src="./images/delete 1.svg" alt="deliet"></button>
+                        </div>
+                    </div>
+                    <div class="box mt-3">
+                        <div class="info">
+                            <h4>C++</h4>
+                            <p>David M. Beazley</p>
+                        </div>
+                        <div class="links">
+                            <a href="#" class="books d-block mt-1 px-1"><img src="./images/biik.svg" alt="book"></a>
+                            <button class="btn deliet mt-2" id="cPlas"><img src="./images/delete 1.svg" alt="deliet"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapperBooks">
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <!-- MDB -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script>
+    <script src="./js/utilis.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

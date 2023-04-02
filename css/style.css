@@ -1,0 +1,184 @@
+/* Header start */
+
+.logo {
+    max-width: 266px;
+    min-width: 70px;
+}
+
+.logoIMg {
+    max-width: 266px;
+    min-width: 70px;
+}
+
+.mainSearch {
+    max-width: 500px;
+    min-width: 200px;
+    background-color: #E3E6EB;
+}
+
+.nightSun {
+    border: none;
+    margin-left: 135px;
+    background-color: rgba(255, 255, 255, 0.096);
+}
+
+#sort {
+    border: none;
+    background-color: #A6B0C3;
+    border-radius: 8px;
+    padding: 9px 13px 9px 42px;
+    color: white;
+}
+
+#sort::before {
+    content: "";
+    display: block;
+    background-image: url(../images/shop.svg);
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    background: red;
+}
+
+
+/* header end */
+
+
+/* Main section hero start */
+
+.hero {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid rgba(192, 192, 192, 0.555);
+}
+
+.hero__wrapper {
+    min-width: 300px;
+    padding-left: 50px;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.hero_result {
+    padding-left: 150px;
+}
+
+
+/* Main section hero end */
+
+
+/* section main start */
+
+
+/* Bokkmark */
+
+.bookmark {
+    margin-top: 30px;
+    width: 260px;
+}
+
+.deliet {
+    background-color: rgba(255, 255, 255, 0.103);
+    box-shadow: none;
+    margin-bottom: 5px;
+    border: none;
+    padding: 4px 9px;
+}
+
+.deliet:hover {
+    background-color: rgba(255, 255, 255, 0.103);
+    box-shadow: none;
+    border: none;
+}
+
+.box {
+    background-color: #F8FAFD;
+    padding: 15px 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Bokkmark  end*/
+
+
+/* main style start */
+
+.wrapperBooks {
+    width: 820px;
+    background-color: #eaeef36e;
+    padding: 40px 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+    border: 1px solid silver;
+}
+
+.card {
+    width: 252px;
+    padding: 8px 13px;
+}
+
+.mainImge {
+    background-color: #C4C4C4;
+}
+
+.imgBook {
+    height: 240px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #F8FAFD;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.cardText {
+    margin-top: -25px;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    color: #757881;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.bookmarkLink {
+    width: 47%;
+    padding: 7px 12px;
+    background-color: yellow;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+}
+
+.moreInfo {
+    width: 46%;
+    padding: 8px 12px;
+    background-color: rgba(13, 117, 255, 0.05);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    color: #0D75FF;
+}
+
+.bookReading {
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+    background-color: #75828A;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 0;
+}
