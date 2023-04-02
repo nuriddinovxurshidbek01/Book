@@ -74,6 +74,8 @@
 .bookmark {
     margin-top: 30px;
     width: 260px;
+    /* overflow-y: scroll;
+    height: 70vh; */
 }
 
 .deliet {
@@ -181,4 +183,27 @@
     color: white;
     border-radius: 4px;
     padding: 4px 0;
+}
+
+
+/* Bookmaker MoreInfo */
+
+.module {
+    position: fixed;
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    display: none;
+}
+
+.cardInfo {
+    width: 70%;
+}
+
+.wrapperBookmark {
+    position: absolute;
+    top: 0;
+    right: 0;
 }

@@ -10,8 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600&display=swap" rel="stylesheet">
-
     <!-- Bootstrap CDN -->
+
     <!-- Font Awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
     <!-- Google Fonts -->
@@ -25,7 +25,7 @@
 <body>
 
     <header class="container">
-        <nav class="navbar navbar-light bg-light">
+        <nav class="navbar navbar-light bg-light shadow-none">
             <div class="container-fluid">
                 <a class="navbar-brand d-block logo"><img src="./images/logo.svg" alt="logo" class="logoIMg"></a>
                 <form class="d-flex  w-75  justify-content-between px-2">
@@ -45,26 +45,53 @@
                 </select>
             </div>
         </section>
+        <!-- ==============Section Main start======================== -->
+
         <section class="main">
+
             <div class="maianWrapper d-flex justify-content-between">
                 <div class="bookmark">
                     <h3 class="title">Bookmarks</h3>
                     <p class="text">If you don’t like to read, you haven’t found the right book</p>
-                    <div class="box ">
-                        <div class="info">
-                            <h4>Python</h4>
-                            <p>David M. Beazley</p>
-                        </div>
-                        <div class="links">
-                            <a href="#" class="books d-block mt-1 px-1"><img src="./images/biik.svg" alt="book"></a>
-                            <button class="btn deliet mt-2" id="python"><img src="./images/delete 1.svg" alt="deliet"></button>
-                        </div>
-                    </div>
+
                 </div>
                 <div class="wrapperBooks">
                 </div>
             </div>
+
         </section>
+
+        <!-- ==============Section Main end======================== -->
+
+        <!-- ==============Section Module start======================== -->
+
+        <section class="module">
+            <div class="wrapperBookmark ">
+                <div class="bookmarkInfo d-flex bg-light p-2 justify-content-between">
+                    <h3 class="title">Payhton</h3>
+                    <button class="back border-0 shadow-none bg-light"><img src="./images/back.svg" alt="back" type="submit" class="backImg"></button>
+                </div>
+                <div class="card shadow-none cardInfo mx-auto w-100 px-4">
+                    <img class="card-img-top" style="height: 250px; width: 200px ; margin: 0 auto;" src="https://picsum.photos/id/125/200/200" alt="Card image cap">
+
+                    <p class="cardText mt-3 px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius commodi sequi pariatur natus, harum, numquam maiores qui ut laboriosam laudantium minus, dolor asperiores corporis? Soluta, ex. Est tempore nihil dolorum soluta suscipit
+                        eligendi omnis incidunt. Velit aliquam eos debitis architecto nisi. Culpa, laudantium. Velit ut dicta facilis molestias aut rerum totam. Iusto earum, laboriosam mollitia ut nemo totam odio suscipit, illum culpa dolorem ipsam exercitationem,
+                        id explicabo asperiores corporis. Quos?</p>
+
+                    <ul class="list-group list-unstyled px-3">
+                        <li class="list"><strong>Author : </strong> </li>
+                        <li class="list"><strong>Published : </strong></li>
+                        <li class="list"><strong>Publishers:</strong></li>
+                        <li class="list"><strong>Categories:</strong></li>
+                        <li class="list"><strong>Pages Count:</strong></li>
+                    </ul>
+                    <a href="#" class="infoMore bg-secondary text-white fs-6 p-1 d-block w-25 text-center mt-4 rounded-3 ">Read</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============Section Module end======================== -->
+
     </main>
 
 
